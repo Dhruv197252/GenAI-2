@@ -1,0 +1,17 @@
+langchain
+langchain-core
+langchain-community
+langchain-mistralai
+mistralai
+chromadb
+sentence-transformers
+beautifulsoup4
+lxml
+numpy 
+pandas
+tiktoken
+pypdf
+unstructured
+
+
+

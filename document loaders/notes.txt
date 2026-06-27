@@ -1,0 +1,204 @@
+Operating System (OS) - Comprehensive Topic List
+
+Module 1: Introduction to Operating Systems
+
+-   Definition and purpose
+-   Evolution and history
+-   Types of operating systems
+    -   Batch OS
+    -   Multiprogramming OS
+    -   Multitasking OS
+    -   Time-sharing OS
+    -   Multiprocessing OS
+    -   Distributed OS
+    -   Network OS
+    -   Real-time OS (Hard and Soft)
+    -   Embedded and Mobile OS
+-   Operating system architecture
+-   System calls
+-   Kernel vs User mode
+-   Monolithic, Microkernel, Hybrid, Exokernel
+-   Boot process
+
+Module 2: Processes and Threads
+
+-   Process concept
+-   Process states and PCB
+-   Context switching
+-   Process scheduling
+-   Threads
+-   User vs Kernel threads
+-   Multithreading models
+-   Thread pools
+-   Process vs Thread
+
+Module 3: CPU Scheduling
+
+-   Scheduling criteria
+-   FCFS
+-   SJF
+-   SRTF
+-   Priority Scheduling
+-   Round Robin
+-   Multilevel Queue
+-   Multilevel Feedback Queue
+-   Real-time scheduling
+-   Starvation and Aging
+
+Module 4: Process Synchronization
+
+-   Critical section
+-   Race condition
+-   Mutual exclusion
+-   Peterson’s solution
+-   Hardware synchronization
+-   Mutex
+-   Semaphore
+-   Monitor
+-   Condition variables
+-   Readers-Writers
+-   Dining Philosophers
+-   Producer-Consumer
+-   Sleeping Barber
+
+Module 5: Deadlocks
+
+-   Deadlock conditions
+-   Resource allocation graph
+-   Prevention
+-   Avoidance (Banker’s Algorithm)
+-   Detection
+-   Recovery
+
+Module 6: Memory Management
+
+-   Address binding
+-   Logical vs Physical address
+-   Swapping
+-   Contiguous allocation
+-   Fragmentation
+-   Paging
+-   Segmentation
+-   Segmentation with Paging
+-   Virtual Memory
+-   Demand Paging
+-   Page Replacement
+    -   FIFO
+    -   Optimal
+    -   LRU
+    -   LFU
+    -   Clock
+-   Thrashing
+-   Working Set
+-   TLB
+
+Module 7: File Systems
+
+-   File concepts
+-   File attributes
+-   File operations
+-   Directory structures
+-   Allocation methods
+-   Free space management
+-   Access methods
+-   Journaling
+-   FAT
+-   NTFS
+-   ext4
+-   inode
+
+Module 8: I/O Systems
+
+-   I/O hardware
+-   Polling
+-   Interrupts
+-   DMA
+-   Device drivers
+-   Buffering
+-   Caching
+-   Spooling
+-   Disk scheduling
+    -   FCFS
+    -   SSTF
+    -   SCAN
+    -   C-SCAN
+    -   LOOK
+    -   C-LOOK
+
+Module 9: Protection and Security
+
+-   Authentication
+-   Authorization
+-   Access control
+-   Access matrix
+-   ACL
+-   Capabilities
+-   Encryption basics
+-   Malware
+-   Firewalls
+-   Secure boot
+
+Module 10: Virtualization and Cloud
+
+-   Hypervisors
+-   Type 1 vs Type 2
+-   Virtual Machines
+-   Containers
+-   Docker basics
+-   Kubernetes overview
+
+Module 11: Linux Concepts
+
+-   Linux architecture
+-   Shell
+-   File hierarchy
+-   Permissions
+-   Users and groups
+-   Process commands
+-   Package managers
+-   Services
+-   Cron jobs
+
+Module 12: Advanced Operating Systems
+
+-   Distributed systems
+-   Cluster systems
+-   NUMA
+-   SMP
+-   Real-time operating systems
+-   Embedded operating systems
+-   Mobile operating systems
+-   GPU scheduling
+-   Energy-aware scheduling
+
+Module 13: Interview & Placement Topics
+
+-   Process vs Program
+-   Process vs Thread
+-   Paging vs Segmentation
+-   Mutex vs Semaphore
+-   Deadlock vs Starvation
+-   Internal vs External Fragmentation
+-   Context Switching
+-   Zombie and Orphan Processes
+-   User Mode vs Kernel Mode
+-   Fork and Exec
+-   Copy-on-Write
+-   IPC Mechanisms
+    -   Pipes
+    -   Named Pipes
+    -   Message Queues
+    -   Shared Memory
+    -   Sockets
+    -   Signals
+
+Module 14: Practice
+
+
+
+-   Numerical problems on scheduling
+-   Numerical problems on page replacement
+-   Numerical problems on disk scheduling
+-   Banker’s Algorithm
+-   Synchronization coding problems
+-   Previous interview questions
