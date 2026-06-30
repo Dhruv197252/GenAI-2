@@ -7,6 +7,9 @@ from langchain_core.prompts import ChatPromptTemplate
 
 load_dotenv()
 
+if "MISTRAL_API_KEY" in st.secrets:
+    os.environ["MISTRAL_API_KEY"] = st.secrets["MISTRAL_API_KEY"]
+
 # ---------------------------
 # Page Config
 # ---------------------------
